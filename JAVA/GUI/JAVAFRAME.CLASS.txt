@@ -1,0 +1,22 @@
+package myProject;
+
+import javax.swing.JFrame;
+import javax.swing.ImageIcon;
+import java.awt.Color;
+
+public class MyFrame extends JFrame{
+
+	MyFrame(){
+		
+		
+		this.setTitle("My JFrame title"); // sets the title of frame
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);// exit out of application
+		this.setResizable(false);//prevent frame from being resized
+		this.setSize(420,420); //set the x-dimension and y-dimension
+		this.setVisible(true); // makes frame visible
+		
+		ImageIcon image = new ImageIcon("Photo.jpg");//creates image icon
+		this.setIconImage(image.getImage());//change icon of frame
+        this.getContentPane().setBackground(Color.green);//change color of background
+	}
+}

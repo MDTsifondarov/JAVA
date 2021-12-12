@@ -1,0 +1,24 @@
+package myProject;
+
+import java.util.ArrayList;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		ArrayList<String> food = new ArrayList<String>();
+		
+		food.add("pizza");//adds value
+		food.add("hamburger");//adds value
+		food.add("hotdog");//adds value
+		
+		food.set(0, "sushi"); //replace the value of the given index with the given one
+		food.remove(2); // removes the value of the given index
+		food.clear(); //removes all the values in the list
+		
+		for(int i=0;i<food.size();i++) {
+			System.out.println(food.get(i)); // prints the value of Ith index of the list
+		}
+	}
+}
+

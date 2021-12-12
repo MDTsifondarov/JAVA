@@ -1,0 +1,20 @@
+package myProject;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+	  String str = "Martin";
+		
+	   boolean result = str.equalsIgnoreCase("bro"); //checks if str equals "bro" ignoring case
+           int result1 = str.length(); // gives the length of the String
+	   char result2 = str.charAt(0); // gives the character of the given position
+           int result3 = str.indexOf("M"); //gives the index of the given character
+	   boolean result4 = str.isEmpty(); //checks if given string is empty
+           String result5 = str.toUpperCase(); //changes the given string to upper case
+	   String result6 = str.toLowerCase(); //changes the given string to lower case
+	   String result7 = str.trim(); //removes all the spaces before and after the text
+	   String result8 = str.replace('a','i'); // replacing all the 'a's with 'i's
+	}
+}
+
